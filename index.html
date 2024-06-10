@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Web Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="Image1.jpg" alt="Company Logo">
+            <span class="company-name">ProfitSpark</span>
+        </div>
+        <nav>
+            <div>
+                <a href="#who-we-are">Who We Are</a>
+                <ul>
+                    <li><a href="#who-we-are">About Us</a></li>
+                    <li><a href="#who-we-are">Our Team</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="#service">Service</a>
+                <ul>
+                    <li><a href="#service">Consulting</a></li>
+                    <li><a href="#service">Support</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="#product">Product</a>
+                <ul>
+                    <li><a href="#product">Product 1</a></li>
+                    <li><a href="#product">Product 2</a></li>
+                </ul>
+            </div>
+            <a href="#join">Join</a>
+        </nav>
+    </header>
+    
+    <div class="content">
+       <div class="carousel-container">
+    <div class="carousel-inner">
+        <div class="carousel-item">
+            <img src="Image1.jpg" alt="Image 1">
+        </div>
+        <div class="carousel-item">
+            <img src="Image2.jpg" alt="Image 2">
+        </div>
+        <div class="carousel-item">
+            <img src="Image3.jpg" alt="Image 3">
+        </div>
+        <div class="carousel-item">
+            <img src="Image4.jpg" alt="Image 4">
+        </div>
+        <div class="carousel-item">
+            <img src="Image1.jpg" alt="Image 1">
+        </div>
+    </div>
+</div>
+
+
+        <section id="who-we-are" class="section">
+            <h2>Who We Are</h2>
+            <p>Line of text about who we are.</p>
+        </section>
+        <section id="service" class="section">
+            <h2>Our Services</h2>
+            <p>Line of text about services.</p>
+        </section>
+        <section id="product" class="section">
+            <h2>Our Products</h2>
+            <p>Line of text about products.</p>
+        </section>
+        <section id="join" class="section">
+            <h2>Join Us</h2>
+            <div class="contact-form">
+                <h2>Want to increase your revenue? Contact Us</h2>
+                <form action="submit.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact">Contact</label>
+                        <input type="tel" id="contact" name="contact" required>
+                    </div>
+                    <div class="form-buttons">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Clear</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 Company Name. All rights reserved.
+        <div class="social-media">
+            <a href="https://facebook.com" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="mailto:info@yourcompany.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
